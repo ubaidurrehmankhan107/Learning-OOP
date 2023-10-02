@@ -71,44 +71,14 @@ $chest = new TreasureChest('Gold Coins');
 echo $chest->content;
 
 
-// class MyClass {
-//     private readonly type propertyName;
-//     class MyClass {
-//         public function __construct(private readonly type propertyName){
-
-//         }
-//     }
-// }
 
 
-// user 
 
-// class User {
-//     public readonly string $username;
+$user = new User();
 
-//     public function __construct(string $username)
-//     {
-//         $this->username = $username;
-//     }
-// }
+$user->setUsername('joe');
 
-
-// class User {
-//     public readonly string $username;
-//     public string $password;
-
-//     public function setUsername(string $username): void 
-
-//     {
-//         $this->username = $username;
-//     }
-// }
-
-// $user = new User();
-
-// $user->setUsername('joe');
-
-// echo $user->username;
+ echo $user->username;
 
 
 
